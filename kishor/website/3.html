@@ -198,9 +198,9 @@
                 justify-content: center;
                 align-items: center;
             }
-            .b0 {
+            .b0, .b00 {
                 margin-bottom: 7%;
-                width:60%;
+                width:65%;
                 background: linear-gradient(90deg, #6a00f4, #d91e91);
                 color: white;
                 border: none;
@@ -215,17 +215,22 @@
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             }
 
-            .b0:hover {
+            .b0:hover, .b00:hover {
                 background: linear-gradient(90deg, #5a00d4, #b91a7f);
             }
-            .b0::before {
-                content: "APPLY NOW";
+            .b0::before, .b00::before {
                 display: flex;
                 justify-content: center; 
                 align-items: center;
                 padding-top: 8.25%;
                 padding-bottom: 8.25%;
-                font-size: 120%; 
+                font-size: 100%; 
+            }
+            .b0::before{
+                content: "GUIDELINES";
+            }
+            .b00::before{
+                content: "HELP";
             }
 
         </style>
@@ -281,8 +286,8 @@
                     <div></div>
                     <div></div>
                     <div class = "right-buttons">
-                        <button class = "b0"></button>
-                        <button class = "b0"></button>
+                        <button class = "b0" ></button>
+                        <button class = "b00"></button>
                     </div>
                 </div>
             </div>
