@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
         <title>
 
         </title>
@@ -61,6 +64,9 @@
                 width : 90%;
 
            }
+           .title{
+            margin-top: 2%;
+           }
            .round-rect2{
                 display: flex;
                 flex-direction: column;
@@ -78,7 +84,16 @@
                 overflow: hidden;
            }
            .title2{
-            height: 10%;
+            height: 7%;
+            margin-top:1.5%;
+            text-align: center;
+            font-size:150%;
+           }
+           .title2 h1{
+            margin:0;
+            color: white;
+            font-family: "Aclonica", sans-serif;
+
            }
            .button-holder{
             display: flex;
@@ -324,6 +339,25 @@
             .icons img{
                 width:50%;
             }
+            .cloud-title{
+                height:15%;
+                background-image: url("imgs/clouds.png");
+                background-size: cover; 
+                background-position: center; 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                object-fit: contain;
+                margin-bottom: 1%;
+                margin-top: 1%;
+                
+            }
+            .cloud-title h1{
+                margin:2px;
+                color:rgb(78, 78, 78);
+            }
+           
 
         </style>
 
@@ -364,8 +398,9 @@
                 <div class = "title2">
                     <h1>EARN POINTS</h1>
                 </div>
-                <div>
-                    fancy text
+                <div class = "cloud-title">
+                    <h1>Current Weekly Streak : 00</h1>
+                    <h1>Highest Weekly Streak : 5</h1>
                 </div>
                 <div class = "button-holder">
                     <button class = "b1"></button>
