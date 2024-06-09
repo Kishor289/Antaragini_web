@@ -43,6 +43,7 @@
                 width : 20%;
                 max-width: 800px;
                 height:100%;
+                
            }
            .rounded-rect{
                 width : 92%;
@@ -146,7 +147,10 @@
                 padding-top: 2%;
                 width:95%;
                 height:48%;
-
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
 
             }
             .rounded-text-box{
@@ -340,22 +344,82 @@
                 width:50%;
             }
             .cloud-title{
-                height:15%;
-                background-image: url("imgs/clouds.png");
-                background-size: 100% 100%; 
+                height:17%;
+                background-image: url("imgs/cloud_n_arrow.png");
+                background-size: 90% 100%;
+                background-repeat: no-repeat; 
                 background-position: center; 
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                object-fit: contain;
+                object-fit:fill;
                 margin-bottom: 1%;
-                margin-top: 1%;
                 
             }
             .cloud-title h1{
                 margin:2px;
                 color:rgb(78, 78, 78);
+            }
+            .hello_label{
+                
+                padding-left: 20%;
+                margin:0% 0%;
+                margin-top: 2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                
+                height: 10%;
+                color:white;
+            }
+            .hand_wave_img{
+                margin-right: 2%;
+                width: 14%;
+                height:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                object-fit: contain;
+            }
+            .hand_wave_img img{
+                height: 138%;
+                width:100%;
+            }
+            .hello_label h1{
+                font-size: 250%;
+                font-weight: 100;
+                margin:0% 0%;
+                margin-top: 4%;
+            
+            }
+            .panel{
+                width : 100%;
+                margin-right: 5%;
+                margin-left: 5%;
+                height: 97%;
+                background-color:#6943BD ;
+                background-size: 100% 100%;
+                background-position: center;
+                border-radius: 25px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                
+                
+            }
+            .panel img{
+                width:104%;
+                height:25%;
+                
+            }
+            .panel_title{
+                color: white;
+            }
+            .panel_title h1{
+                font-weight: 100;
             }
            
 
@@ -395,35 +459,29 @@
                     <img src = 'imgs/16.png'>
                     
                 </div>
-                <div class = "title2">
-                    <h1>EARN POINTS</h1>
+                <div class = "hello_label">
+                    <div class = "hand_wave_img">
+                        <img src = "imgs/Hand_wave.png">
+                    </div>
+                    <h1>Hey, Name</h1>
                 </div>
                 <div class = "cloud-title">
                     <h1>Current Weekly Streak : 00</h1>
                     <h1>Highest Weekly Streak : 5</h1>
                 </div>
-                <div class = "button-holder">
-                    <button class = "b1"></button>
-                    <button class = "b2"></button>
-                    <button class = "b3"></button>
-                    <button class = "b4"></button>
-                </div>
+                
                 <div class = "main-context">
-                    <div class = "rounded-text-box">
-                        <div class = "content">
-                            <h1>Heading</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 
-                                , sed do eiusmod tempor incididunt ut labore et dolore
-                                 magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                  exercitation ullamco laboris nisi ut aliquip ex 
-                                  ea commodo consequat. Duis aute irure dolor in 
-                                  reprehenderit in voluptate velit esse cillum 
-                                  dolore eu fugia</p>
+                    <div class = "panel">
+                        <div class = "panel_title">
+                            <h1>TASK DONE</h1>
                         </div>
-                        <div class = "button-holder2">
-                            <button class = "long-button"></button>
+                        <img src = "imgs/blue_wave.png">
+                    </div>
+                    <div class = "panel">
+                        <div class = "panel_title">
+                            <h1>TASK VERIFIED</h1>
                         </div>
-
+                        <img src = "imgs/yellow_wave.png">
                     </div>
                 </div>
             </div>
