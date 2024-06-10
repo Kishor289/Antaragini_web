@@ -4,6 +4,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap" rel="stylesheet">
         <title>
 
         </title>
@@ -104,6 +107,7 @@
             align-items: center;
            }
            .b1, .b2, .b3, .b4 {
+                font-family: "Alice", sans-serif;
                 width:20%;
                 background-color: white;
                 color: rgba(11, 11, 11, 0.712);
@@ -141,6 +145,9 @@
             }
             .b4::before{
                 content:"EVENTS";
+            }
+            .b1{
+                background-color: #B7C6F9;
             }
             .main-context{
                 padding-top: 2%;
@@ -278,6 +285,7 @@
 
             }
             .left-textbox h2{
+                font-family: "Amaranth", sans-serif;
                 margin:0;
             }
             .t2{
@@ -295,6 +303,7 @@
 
             }
             .left_textbox_2 h3{
+                font-family: "Alice", sans-serif;
                 margin:3px;
                 font-weight: 300;
                 font-size: larger;
@@ -331,7 +340,7 @@
             .icons{
                 height:100%;
                 width:100%;
-                margin: 7px;
+               
                 object-fit: contain;
                 display: flex;
                 justify-content: center;
@@ -360,6 +369,7 @@
                 
             }
             .cloud-title h1{
+                font-family: "Alice", sans-serif;
                 margin:2px;
                 color:rgb(78, 78, 78);
             }
@@ -401,6 +411,16 @@
                 font-weight: 50;
                 
             }
+            .icon_a{
+                height:100%;
+                width:100%;
+                margin: 6px;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
            
 
         </style>
@@ -415,21 +435,31 @@
                     </div>
                     <div class = "line2"></div>
                     <div class = "left-icons">
-                        <div class = "icons">
-                            <img src = "imgs/i5.png">
-                        </div>
-                        <div class = "icons">
-                            <img src = "imgs/i4.png">
-                        </div>
-                        <div class = "icons">
-                            <img src = "imgs/i3.png">
-                        </div>
-                        <div class = "icons">
-                            <img src = "imgs/i2.png">
-                        </div>
-                        <div class = "icons">
-                            <img src = "imgs/i1.png">
-                        </div>
+                        <a href = "Whats_happening_page.html" class = "icon_a">
+                            <div class = "icons">
+                                <img src = "imgs/i5.png">
+                            </div>
+                        </a>
+                        <a href = "workshop_page.html" class = "icon_a">
+                            <div class = "icons">
+                                <img src = "imgs/i4__.png">
+                            </div>
+                        </a>
+                        <a href = "Leaderboard_page.html" class = "icon_a">
+                            <div class = "icons">
+                                <img src = "imgs/i3.png">
+                            </div>
+                        </a>
+                        <a href = "Details_page.html" class = "icon_a">
+                            <div class = "icons">
+                                <img src = "imgs/i2.png">
+                            </div>
+                        </a>
+                        <a href = "Landing_page.html" class = "icon_a">
+                            <div class = "icons">
+                                <img src = "imgs/i1.png">
+                            </div>
+                        </a>
                     </div>
                 </div>   
             </div>
@@ -447,10 +477,10 @@
                     <h1>Highest Weekly Streak : 5</h1>
                 </div>
                 <div class = "button-holder">
-                    <button class = "b1"></button>
-                    <button class = "b2"></button>
-                    <button class = "b3"></button>
-                    <button class = "b4"></button>
+                    <button class = "b1" onclick="window.location.href='social_media_page.html'; "></button>
+                    <button class = "b2" onclick="window.location.href='workshop_page.html'; "></button>
+                    <button class = "b3" onclick="window.location.href='Clubs_page.html'; "></button>
+                    <button class = "b4" onclick="window.location.href='Events_page.html'; "></button>
                 </div>
                 <div class = "main-context">
                     <div class = "rounded-text-box">
